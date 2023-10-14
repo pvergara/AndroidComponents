@@ -72,6 +72,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
+        android:onClick="onClick"
         app:icon="?attr/actionModeCopyDrawable"
         app:layout_constraintBottom_toBottomOf="@+id/imageButton"
         app:layout_constraintEnd_toEndOf="parent"
@@ -178,7 +179,7 @@
         app:layout_constraintVertical_bias="0.84000003" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableStart="@android:drawable/ic_menu_my_calendar"
